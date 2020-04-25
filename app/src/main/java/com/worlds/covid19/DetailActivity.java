@@ -85,7 +85,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void fetchData() {
-        String url = "https://corona.lmao.ninja/v2/historical/Usa";
+        String url = "https://corona.lmao.ninja/v2/historical/india";
 
 
         StringRequest request = new StringRequest(Request.Method.GET, url,
